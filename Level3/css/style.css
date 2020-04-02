@@ -1,0 +1,84 @@
+body{
+    min-height: 100vh;
+    background-color: gray;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.cardContainer{
+    display: flex;
+    margin: auto;
+    width: 375px;
+    height: 375px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.userImageContainer{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top:-55px;
+    left: 120px;
+}
+.lab{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #5A627C;
+    font-size:30px;
+    font-weight: lighter;
+    padding-left: 100px;
+}
+.tex, .pass{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    width: 320px;
+    height: 35px;
+    font-size: 16px;
+    opacity: 0.5;
+    padding-left: 10px;
+    margin: 15px;
+    letter-spacing: -0.2px;
+}
+input:focus{
+    box-shadow: 0 0 7px 2px rgba(100,187,242,1);
+}
+.tex{
+    margin-top: 20px;
+}
+.log{
+    width: 340px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(40, 167, 69);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.basement{
+    box-sizing: border-box;
+    width: 375px;
+    height: 60px;
+    background-color: rgb(236,240,241);
+    margin-top: 22px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top: 2px solid rgb(201,202,203);
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+}
+a, a:visited, a:active, a:link, a:hover{
+    text-decoration: none;
+    color: #20AAF4;
+    letter-spacing: -0.2px;
+}
